@@ -1,0 +1,31 @@
+{
+    "mappings": {
+	"document": {
+	    "properties": {
+		"text": {
+		    "type": "string",
+		    "term_vector": "with_positions_offsets_payloads",
+		    "store" : true,
+		    "index_analyzer" : "fulltext_analyzer"
+		},
+		"score": {
+		    "type": "integer"
+		}
+	    }
+	}
+    },
+    "settings" : {
+	"analysis": {
+	    "analyzer": {
+		"fulltext_analyzer": {
+		    "type": "custom",
+		    "tokenizer": "whitespace",
+		    "filter": [
+			"lowercase",
+			"type_as_payload"
+		    ]
+		}
+	    }
+	}
+    }
+}
