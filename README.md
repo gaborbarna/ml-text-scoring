@@ -4,6 +4,8 @@ Online logistic regression classification w/ Apache Mahout, Scalatra, Elasticsea
 
 ## Build & Run ##
 
+create `documents` Elasticsearch index using es_index.json
+
 ```sh
 $ cd scoring
 $ ./sbt
