@@ -1,5 +1,5 @@
 import _root_.akka.actor.{ActorSystem, Props}
-import com.lensa.scoring._
+import scoring._
 import org.scalatra._
 import javax.servlet.ServletContext
 

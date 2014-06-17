@@ -7,7 +7,7 @@ import ScalateKeys._
 
 
 object ScoringBuild extends Build {
-  val Organization = "com.lensa"
+  val Organization = "org.scoring"
   val Name = "scoring"
   val Version = "0.1.0-SNAPSHOT"
   val ScalaVersion = "2.10.3"

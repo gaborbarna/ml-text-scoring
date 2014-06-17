@@ -1,4 +1,4 @@
-package com.lensa.scoring
+package scoring
 
 import wabisabi.Client
 import java.security.MessageDigest

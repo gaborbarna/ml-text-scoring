@@ -1,4 +1,4 @@
-package com.lensa.scoring
+package scoring
 
 
 class ScoreRangeError(message: String = null) extends RuntimeException(message, null)

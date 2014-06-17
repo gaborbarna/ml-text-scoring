@@ -1,4 +1,4 @@
-package com.lensa.scoring
+package scoring
 
 import akka.actor.{ActorRef, Actor, ActorSystem}
 import akka.event.Logging

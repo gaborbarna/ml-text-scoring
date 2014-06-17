@@ -1,4 +1,4 @@
-package com.lensa.scoring
+package scoring
 
 import org.apache.mahout.math.SequentialAccessSparseVector;
 import org.apache.mahout.math.Vector;

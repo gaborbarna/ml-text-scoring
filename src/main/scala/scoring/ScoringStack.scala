@@ -1,4 +1,4 @@
-package com.lensa.scoring
+package scoring
 
 import org.scalatra._
 import scalate.ScalateSupport

@@ -1,5 +1,7 @@
 # scoring #
 
+Online logistic regression classification w/ Apache Mahout, Scalatra, Elasticsearch.
+
 ## Build & Run ##
 
 ```sh

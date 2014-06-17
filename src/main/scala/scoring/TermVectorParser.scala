@@ -1,4 +1,4 @@
-package com.lensa.scoring
+package scoring
 
 import scala.util.parsing.json._
 
@@ -31,8 +31,7 @@ object TermVectorParser {
       M(text) = termVectors("text")
       M(terms) = text("terms")
       T(term) <- terms
-      termName = term._1
-      M(termMap) = term._2
+      (termName, M(termMap)) = term
       D(termFreqDouble) = termMap("term_freq")
       I(termFreq) = termFreqDouble.toInt
     } yield (termName, termFreq)
